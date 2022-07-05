@@ -2,9 +2,8 @@
 
 namespace App\Tests;
 
-use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Gitlab\Client;
-use Gitlab\ResultPager;
+use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
 class GitlabSelfHostedTest extends KernelTestCase
 {
